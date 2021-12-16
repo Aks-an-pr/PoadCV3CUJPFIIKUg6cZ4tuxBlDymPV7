@@ -1,0 +1,315 @@
+
+
+
+<!DOCTYPE html>
+ 
+<html>
+ 
+ 
+<head>
+    <title></title>
+ 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+ 
+        .background {
+            background: #a86561;
+            background-blend-mode: lighten;
+            background-size: cover;
+        }
+ 
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+ 
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+ 
+        .logo img {
+            width: 100px;
+            border-radius: 25px;
+        }
+ 
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+ 
+        .nav-list li a:hover {
+            color: grey;
+        }
+ 
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+ 
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+	.Welcome{
+	    background-color:#35B5AC;
+	    justify-content: center;
+	    text-align: center;
+	    padding : 5px 5px 5px 5px;
+	    font-style:bold;
+	}
+	.cover img{
+	    width: 1510px;
+	}
+ 
+        .firstsection {
+            background-color: #89D5D2;
+            height: 400px;
+        }
+
+ 	.situation{
+	    padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid 
+            border-radius: 8px;
+            background: white;
+            color: white;
+            cursor: pointer;
+	    
+	}
+	.block{
+            width:33.3%;
+	    height:400px;
+	    float:left;
+            border-radius: 8px;
+	    text-align:center;
+         }
+
+	.row:after {
+  		content: "";
+  		display: table;
+ 		clear: both;
+	}
+	.importance {
+	    padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid 
+            border-radius: 8px;
+            background: white;
+            color: white;
+            cursor: pointer;
+	}
+
+	.primary {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+
+        .secondsection {
+            background-color: #C09591;
+            height: 400px;
+        }
+ 
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            color: black;
+            max-width: 80%;
+            margin: auto;
+            height: 80%;
+        }
+ 	
+       
+        .firsthalf {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+ 
+        .secondhalf {
+            width: 30%;
+        }
+ 
+        .secondhalf img {
+            width: 70%;
+            border: 4px solid white;
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+        }
+ 
+        .text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+ 
+        .text-small {
+            font-size: 18px;
+        }
+ 
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+ 
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+ 
+        .section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 90%;
+            margin: auto;
+        }
+ 
+        .section-Left {
+            flex-direction: row-reverse;
+        }
+ 
+        .paras {
+            padding: 0px 65px;
+        }
+ 
+        .thumbnail img {
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 26px;
+            margin-top: 19px;
+        }
+ 
+        .center {
+            text-align: center;
+        }
+ 
+        .text-footer {
+            text-align: center;
+            padding: 30px 30px 30px 30px;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: left;
+            color: white;
+        }
+	.logo-footer img{
+	    width:60px;
+	    float:right;
+	    padding:10px 10px 10px 10px;
+	} 
+ </style>
+</head>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src= "C:\Users\Akshara\Desktop\Duurzame\Duurzame-Logo.png">
+            </div>
+            <li><a href="#First">Awareness</a></li>
+            <li><a href="#Second">Contribution</a></li>
+            <li><a href="#Third">About us</a></li>
+        </ul>
+ 
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+ 
+    <section class="Welcome">
+            <div class="cover" id = "First">
+		<img src="C:\Users\Akshara\Desktop\Duurzame\First Section.png">
+            </div>
+	    <p> - - -</p>
+        
+    </section>
+    <Section class="firstsection">
+	<div class="block" style="background: #008080;">
+		<p>This is the situation</p>
+		<button class="Situation primary">Know more</button>
+	</div>
+        <div class="block" style="padding-top:150px;">
+		<h1 class="text-big" id="Second"> Awareness </h1>
+		<p class="text-small"> 
+		Happy Happy </p> 
+	</div>
+	
+	<div class ="block" style="background:#008080;">	
+		<p>This is why you should work on the this shit</p>
+		<button class="Importance primary">Know more</button>
+	</div>
+	</div>
+	
+     </section>
+ 
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="Third">
+                   Contribution
+                </h1>
+                <p class="text-small">
+	Happy Happy
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big">About Us</h1>
+ 
+            <p class="sectionSubTag text-small">
+                Kimpimsnfaosdb 
+            </p>
+ 
+ 
+        </div>
+ 
+        <div class="thumbnail">
+            <img src= "img.png" alt="laptop image">
+        </div>
+    </section>
+ 
+    <footer class="background">
+        <div class="logo-footer">
+	<img src = "C:\Users\Akshara\Desktop\Duurzame\Duurzame-Logo.png"> 
+        </div>
+  	<p class="text-footer"> An initative by the Pythons </p>
+    </footer>
+</body>
+ 
+</html>
